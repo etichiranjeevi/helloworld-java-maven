@@ -41,7 +41,18 @@
 	</plugins>
 	</build>
   
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-46-36-releases</name>
+        <url>http://65.2.152.172:8081/artifactory/jenkins</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-46-36-snapshots</name>
+        <url>http://65.2.152.172:8081/artifactory/jenkins</url>
+    </snapshotRepository>
+</distributionManagement>
 
 
 
